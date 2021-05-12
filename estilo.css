@@ -1,0 +1,300 @@
+
+body{
+	width:100%;
+	background: #072A42;
+	margin:0px;
+	font: 16px arial, helvetica, sans-serif;
+	color: #fff;
+
+}
+
+
+#menu ul{
+	width: 40%;
+	list-style: none;
+	float: right;
+
+	
+}
+
+#menu li{
+	float: left;
+	padding:5px 10px;
+
+}
+
+#menu a{ 
+	display: block;
+	width: 30%
+	padding: 10px;
+	color:#fff;
+}
+
+#menu a:hover{
+	color: #074211;
+	background:;
+}
+
+.insta{
+	width: 30px;
+	height: 23px;
+	margin-right: 20px;
+	line-height: 2em;
+
+}
+
+
+a{
+	text-decoration: none;
+	font: 1em;
+	font-weight: bold;
+	clear: both;
+	}
+
+
+#capa{
+	background: #000;
+	width: 100%;
+	min-width: 300px;
+	margin: 10px auto;
+	clear: both;
+}
+	
+#imgcapa{
+	width: 20%;
+	min-width: 200px;
+	max-width: 200px;
+	margin:0 auto;
+}
+
+
+#contato{
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	font-weight: bold;
+	font-family: arial, helvetica, sans-serif;
+	clear: both;
+}
+ #contato fieldset{
+ 	padding: 20px;
+ 	border: solid 2px;
+ 	margin-top: 50px;
+ 	background-color: rgba(255,255,255,0.3);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+ }
+
+ #contato legend{
+ 	text-decoration: underline;
+ 	border: 2px solid;
+ 	border-radius: 5px;
+ 	background: #074211;
+ 	padding: 5px;
+
+ }
+
+#contato form{
+	color: black
+}
+
+.formcontato input{
+	width: 60%;
+	border-radius: 5px;
+}
+
+#contato textarea{
+	width: 90%;
+	height:150px;
+	border-radius: 5px;
+	border: solid 2px;
+	border-color: black gray gray black
+
+}
+
+.formcontato{
+	padding:10px;
+
+}
+
+#idcadastro{
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial, helvetica, sans-serif;
+	clear: both;
+	color: black;
+
+}	
+
+#idcadastro fieldset{
+	padding: 20px;
+	border: black solid;
+	background-color: rgba(500,500,500,0.2);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+
+.cadastro{
+	margin-top: 0px;
+	text-align: center;
+	color: white;
+}
+
+
+.textoformcadastro{
+	margin bottom:  10px;
+	padding: 10px;
+
+}
+
+.textoformcadastro input{
+	width: 70%;
+	border-radius: 5px;
+}
+
+.textoformcadastro input.radio{
+	width: 10%;
+	
+}
+
+label{
+	display: block;
+	cursor: pointer
+}
+
+#promoção{
+	color: #000;
+	border: #072A42 solid;
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	clear: both;
+}
+
+#tabela-preços{
+	width: 80%;
+	padding: 20px;
+	margin: 0px auto;
+	border-collapse: collapse;
+	
+}
+
+#tabela-preços tr{
+	border: 5px solid;
+	background-color: #fff
+	
+}
+#tabela-preços td{
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+#tabela-preços tr:hover{
+	background-color: #072A42;
+}
+#quemsomos{
+	margin: auto;
+	padding: 50px;
+	width: 80%;
+	clear: both;
+	text-align: center;
+}
+
+#quemsomos img{
+	padding: 30px;
+	width:65%;
+}
+
+#camisasbr{
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+
+
+}
+
+#camisasint{
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+	
+}
+
+#camisasprincipal{
+	clear: both;
+
+
+}
+.camisas{
+	width: 250px;
+	padding: 10px;
+	margin:10px 10px 50px 50px;
+	background: #d1d1d1;
+	border-radius: 5px;
+
+}
+
+#arealogin{
+	width: 500px;
+	height: 300px;
+	background-color: rgba(500,500,500,0.2);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	margin: auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+
+#arealogin form{
+	text-align: center;
+	margin-bottom:  50px;
+	margin-top: 20px;
+
+}
+#arealogin input{
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px
+}
+
+#arealogin input.email{
+	background-image: url(imagens/icone-usuario.png);
+}
+
+#arealogin input.senha{
+	background-image: url(imagens/icone-cadeado.png);
+}
+
+#arealogin input.submit{
+	background-color: #074211;
+	border: 2px solid #074211;
+	padding: 5px 20px;
+	height: 45px;
+	width: 80%;
+	background: linear-gradient(to bottom, #074211, #075211 );
+	cursor: pointer;
+}
+h1{
+	margin-top: -5px;
+}
+
+h1.cabeçalhocamisas{
+	text-align:center;
+	font-size: 3em;
+
+}
+
+.camisas:hover{
+background: #074211
+
+}
